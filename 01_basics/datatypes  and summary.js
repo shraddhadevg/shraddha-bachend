@@ -35,4 +35,30 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 
 console.log(id === anotherId );
+const bigNumber : 648846753245n
 
+const bigNumber = 648846753245
+  
+
+Reference (non premative)
+ Array. object,function
+
+
+ //array // square bracket
+
+ const heros = ["shaktiman", "naagraj", "doga"]
+
+ //Object
+ 
+ let myobj =  {
+    name = "shraddha"
+    age = 23
+    pass = true
+  }
+
+  // function
+   const myfunction = function(){} //curlybracess
+ console.log("hallo world");
+ 
+// how to know the datatype of this:
+ console. log(typeof bigNumbet);
