@@ -19,18 +19,29 @@ const gameName = new String('shraddh-aa-com')
 //console.log(gameName.substring());
 
 const newString = gameName.substring(0, 6)
-console.log(newString );
+//console.log(newString );
 const anotherString = gameName.slice(-9,5)
 
-console.log(anotherString);  
+//console.log(anotherString);  
 
 const newStringOne = "   shra   "
-console.log (newStringOne);
-console.log (newStringOne.trim());
+//console.log (newStringOne);
+//console.log (newStringOne.trim());
 
 const url = "https://shraddha.com/shraddha%20devgayya"
-console.log(url.replace('%20','-'));
+//console.log(url.replace('%20','-'));
 
-console.log(url.includes("shraddha"));
+//console.log(url.includes("shraddha"));
 
-console.log(gameName.split('-'));
+//console.log(gameName.split('-'));
+
+const contentstring = "Hello world"
+console.log(contentstring.anchor("Hello"));
+
+const array = [5,12,8,130,44];
+
+let index = 5;
+
+console.log(`An index of ${index} return ${array.at(index)}`);
+
+
